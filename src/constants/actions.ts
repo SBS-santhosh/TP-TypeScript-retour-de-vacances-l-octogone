@@ -1,4 +1,4 @@
-import { Action } from "../src/types/action";
+import { Action } from "../types/action";
 
 export const WARRIOR_ACTIONS: Action[] = [
   { name: "Commit atomique", type: "attack", minDamage: 10, maxDamage: 10 },
@@ -13,9 +13,9 @@ export const MAGE_ACTIONS: Action[] = [
 ];
 
 export const ARCHER_ACTIONS: Action[] = [
-  { name: "Coup de C++", type: "attack", minDamage: 7, maxDamage: 13 },
-  { name: "Typhon de Typescript ", type: "attack", minDamage: 9, maxDamage: 12 },
-  { name: "Justice de Javascript", type: "defense" },
+  { name: "Flèche Flatpak", type: "attack", minDamage: 7, maxDamage: 13 },
+  { name: "Tir de Typescript ", type: "attack", minDamage: 9, maxDamage: 12 },
+  { name: "Esquive Eclipse ", type: "defense" },
 ];
 
 

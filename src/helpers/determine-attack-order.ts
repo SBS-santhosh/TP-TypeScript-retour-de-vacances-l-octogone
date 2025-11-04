@@ -1,3 +1,5 @@
+import { Character } from "../models/characters";
+
 export function determineAttackOrder(
   p1: Character,
   p2: Character
@@ -14,4 +16,4 @@ export function determineAttackOrder(
     // P2 wins initiative
     return { first: p2, second: p1 };
   }
-} 
+}

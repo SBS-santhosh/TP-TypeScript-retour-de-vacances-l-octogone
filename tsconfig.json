@@ -8,5 +8,5 @@
     "skipLibCheck": true,
     "outDir": "dist"
   },
-  "include": ["src", "constants/actions.ts"]
+  "include": ["src", "src/constants/actions.ts"]
 }
