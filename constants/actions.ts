@@ -9,7 +9,7 @@ export const WARRIOR_ACTIONS: Action[] = [
 export const MAGE_ACTIONS: Action[] = [
   { name: "Sort de Compilation", type: "attack", minDamage: 6, maxDamage: 14 },
   { name: "Correction magique", type: "attack", minDamage: 8, maxDamage: 10 },
-   { name: "Bouclier de TypeScript", type: "defense" },
+  { name: "Bouclier de Bash" , type: "defense" },
 ];
 
 export const ARCHER_ACTIONS: Action[] = [
