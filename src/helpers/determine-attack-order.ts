@@ -1,4 +1,4 @@
-import { Character } from "../models/characters";
+import { Character } from "../models/character";
 
 export function determineAttackOrder(
   p1: Character,

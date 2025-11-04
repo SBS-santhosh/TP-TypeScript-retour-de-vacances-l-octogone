@@ -1,3 +1,3 @@
-export type Action =
+export type Action = 
   | { name: string; type: 'attack'; minDamage?: number; maxDamage?: number }
-  |{ name: string; type: 'defense' };
+  | { name: string; type: 'defense' };
